@@ -17,6 +17,7 @@
 		5B757FEE2476A279004D0F32 /* AFNetworking_TFKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B757FED2476A279004D0F32 /* AFNetworking_TFKitTests.m */; };
 		5B757FF92476A279004D0F32 /* AFNetworking_TFKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B757FF82476A279004D0F32 /* AFNetworking_TFKitUITests.m */; };
 		5B75800A2476A3F5004D0F32 /* TFHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7580092476A3F5004D0F32 /* TFHttpClient.m */; };
+		5B75800D247773AA004D0F32 /* TFResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B75800C247773AA004D0F32 /* TFResponse.m */; };
 		C0F2055A019DEE0B7EF42CA7 /* libPods-AFNetworking-TFKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83539B1EEBC17C54B64903D8 /* libPods-AFNetworking-TFKit.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,9 @@
 		5B757FFA2476A279004D0F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B7580082476A3F5004D0F32 /* TFHttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFHttpClient.h; sourceTree = "<group>"; };
 		5B7580092476A3F5004D0F32 /* TFHttpClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFHttpClient.m; sourceTree = "<group>"; };
+		5B75800B247773AA004D0F32 /* TFResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFResponse.h; sourceTree = "<group>"; };
+		5B75800C247773AA004D0F32 /* TFResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFResponse.m; sourceTree = "<group>"; };
+		5B75800E2477753A004D0F32 /* AFNetworking-TFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-TFKit.h"; sourceTree = "<group>"; };
 		8159E32B999B071A9475CE43 /* Pods-AFNetworking-TFKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking-TFKit.debug.xcconfig"; path = "Target Support Files/Pods-AFNetworking-TFKit/Pods-AFNetworking-TFKit.debug.xcconfig"; sourceTree = "<group>"; };
 		83539B1EEBC17C54B64903D8 /* libPods-AFNetworking-TFKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking-TFKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -151,9 +155,12 @@
 		5B7580062476A3A6004D0F32 /* AFNetworking-TFKit */ = {
 			isa = PBXGroup;
 			children = (
+				5B75800E2477753A004D0F32 /* AFNetworking-TFKit.h */,
 				5B7580072476A3C5004D0F32 /* Resource */,
 				5B7580082476A3F5004D0F32 /* TFHttpClient.h */,
 				5B7580092476A3F5004D0F32 /* TFHttpClient.m */,
+				5B75800B247773AA004D0F32 /* TFResponse.h */,
+				5B75800C247773AA004D0F32 /* TFResponse.m */,
 			);
 			path = "AFNetworking-TFKit";
 			sourceTree = "<group>";
@@ -338,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B75800D247773AA004D0F32 /* TFResponse.m in Sources */,
 				5B75800A2476A3F5004D0F32 /* TFHttpClient.m in Sources */,
 				5B757FD92476A275004D0F32 /* ViewController.m in Sources */,
 				5B757FD32476A275004D0F32 /* AppDelegate.m in Sources */,
